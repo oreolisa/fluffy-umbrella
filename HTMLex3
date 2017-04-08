@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>百度前端学院-html练习3 三栏式布局</title>
+		<style>
+			#container{
+				background:#eee;
+				border:1px solid #999
+				
+
+			}
+			#left{
+				width:200px;
+				float:left;
+				background: white;
+				padding:20px;
+				border:1px solid #999;
+			}
+			#right{
+				width:120px;
+				float:right;
+				background: white;
+				border:1px solid #999;
+			}
+			#logo{
+				float:left;
+
+			}
+			
+			.personlogo{
+				padding:20px;
+				
+			}
+			#med{
+				border:1px solid #999;
+				padding:20px;
+				margin-left:260px;
+				margin-right:140px;
+				background: white;
+				
+
+			}
+			.clear{
+				clear:both
+			}
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id="left">
+				<div id="logo"><img src="logo2.jpg"></div>
+				   &nbsp;&nbsp;跳水队
+			</div>
+			<div id="right">
+				<div class="personlogo"><img src="logo2.jpg"></div>
+				<div class="personlogo"><img src="logo2.jpg"></div>
+				<div class="personlogo"><img src="logo2.jpg"></div>
+				<div class="personlogo"><img src="logo2.jpg"></div>
+			</div>
+			<div id="med">
+				中国跳水队是中国体育王牌中的王牌。</br>
+				奥运冠军团队，包括中国女子跳水队和中国男子跳水队,自1984年参加洛杉矶奥运会以来，跳水队已经累积为中国军团贡献了40枚金牌，在各项奥运项目中高居榜首。中国跳水队1986年第一次参加世界游泳锦标赛，截至2007年第12届澳大利亚墨尔本世界游泳锦标赛，共夺得金牌38枚，“梦之队”的称号当之无愧。</br><!--[if IE]>
+					
+				<![endif]-->其中更是涌现了高敏、吴敏霞、熊倪、郭晶晶等领军人物。
+			</div>
+			<div class="clear"></div> 
+		
+		</div>
+	</body>
+</html>
